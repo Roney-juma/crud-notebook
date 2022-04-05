@@ -1,0 +1,141 @@
+body {
+  font-size: 18px;
+}
+h2 {
+  text-align: center;
+}
+#login,#rejister,.updateprofile, .pict, .details, .create,.error-col {
+  background-color: #D4CECE;
+  padding: 15px;
+  height: 100vh;
+}
+h3 {
+  color: #16425B;
+}.col-md-10 {
+  padding-top: 15px;
+}
+.profile-col {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #16425B;
+}
+.notes-col,.categories-col {
+  height: 100vh;
+  background-color: white
+}
+.notes-header, .categories-header {
+  padding-top: 2vh;
+  height: 10vh;
+  border-bottom: 2px solid white;
+}
+.notes, .categories {
+  height: 90vh;
+  overflow-y: auto;
+}
+.notes-container {
+  height: 87vh;
+}
+.notes-col {
+  background-color: #D4CECE;
+}
+.categories-col {
+  background-color: #E5E5E5;
+}
+.note {
+  background-color: #D4CECE;
+  height: auto;
+  padding: 1.5rem;
+  border-bottom: 2px solid white;
+}
+.notes-header {
+  background-color: #CECDCD;
+}
+.categories-header {
+  background-color: #DCE2E1;
+}
+.category_list {
+  background-color: #E5E5E5;
+  border-bottom: 2px solid white;
+  padding: 1.5rem;
+}
+
+table {
+  border: 1.5px solid #584b53 !important;
+}
+#userTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#deleteForm {
+  display: inline !important;
+}
+#comment {
+  width: 100% !important;
+  display: block;
+}
+
+#userTable td, #userTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#userTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#userTable tr:hover {background-color: #ddd;}
+#userTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.category-item{
+  background-color: #E5E5E5;
+  height: 100px;
+  font-size: medium;
+}
+.text-centre, .testimonial-card {
+  text-align: center;
+  margin-top: 4rem !important;
+}
+.card-img img {
+  border-radius: 50% !important;
+}
+ul li{
+  width: 100% !important;
+  color: white !important;
+}
+ul li a{
+  color: white !important;
+}
+ul li a:hover{
+  color: white !important;
+  color: #16425B !important;
+}
+@media (max-width: 1000px) {
+  .profile-col {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .notes-col,.categories-col {
+    height: auto;
+    background-color: white
+  }
+  .notes-header, .categories-header {
+    padding-top: 2vh;
+    height: 10vh;
+    border-bottom: 2px solid white;
+  }
+  .notes, .categories {
+    height: auto;
+  }
+  .notes-container {
+    height: auto;
+  }
+  .fas, .fa {
+    font-size: 20px !important;
+  }
+}

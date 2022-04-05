@@ -1,5 +1,5 @@
 # Detailed steps of developing an USSD and an APP mobile applications
-1. Strategy- 
+## Strategy- 
 Here, you define the strategy for evolving your idea into a succesful APP.
  You'll have to:
     Identify the app users
@@ -7,10 +7,10 @@ Here, you define the strategy for evolving your idea into a succesful APP.
     Establish the app’s goals and objectives
     Select a mobile platform for your app
 
-2. Analysis and Planning- 
+## Analysis and Planning- 
 You define the use cases and capturing detailed functional requirements
 
-3. UI / UX Design (Applicable to Mobile APP)
+## UI / UX Design (Applicable to Mobile APP)
 The purpose of an app’s design is to deliver seamless and effortless user experiences with a polished look.
 The success of a mobile app is determined based on how well users are adopting and benefiting from all its features.
 
@@ -26,7 +26,7 @@ Style guides are “living documents” where an app’s design standards from y
 ### Mockups
 Mockups, or high-fidelity designs, are the final renderings of your app’s visual design. Mockups are created by applying your style guide on to the app wireframes. As your app’s design begins to finalize, expect further modifications to its information architecture, workflow, and aesthetics. Adobe Photoshop is the most popular tool for creating high-fidelity mockups.
 
-4. App Development
+## App Development
 Planning remains an integral part of this phase in the mobile app development process. Before actual development/programming efforts start, you will have to:
 
 define the technical architecture,
@@ -53,7 +53,7 @@ As each development milestone completes, it is passed on to the app testing team
 
 [clickToTweet tweet=”There is more than one programming language and technology stack for building mobile apps —the key is picking a technology stack that is best suited for your mobile app. #ux #appsdev” quote=”There is more than one programming language and technology stack for building mobile apps —the key is picking a technology stack that is best suited for your mobile app. “]
 
-5. Testing
+## Testing
 Performing thorough quality assurance (QA) testing during the mobile app development process makes applications stable, usable, and secure. To ensure comprehensive QA testing of your app, you first need to prepare test cases that address all aspects of app testing.
 
 Similar to how use cases drive the process of mobile app development, test cases drive mobile app testing. Test cases are for performing test steps, recording testing results for software quality evaluation, and tracking fixes for retesting. A best practice approach is involving your QA team in the Analysis and Design stages. The familiarity with your app’s functional requirements and objectives will help produce accurate test cases.
@@ -103,5 +103,5 @@ Testing is imperative to an app’s future success; it encompasses a substantial
 
 During the testing phase, there are many ways for distributing your app development builds to the testers. The most common approach with iOS apps is using the Testflight and for Android apps via email or Over The Air (OTA) installs.
 
-6. Deployment & Support
+## Deployment & Support
 Releasing a native mobile app requires submitting your app to the app stores, Apple App Store for iOS apps and Google Play for Android apps. However, you will need a developer account with Apple App Store and Google Play Store before launching your mobile app.
